@@ -45,5 +45,5 @@ end
 #This method should print out each key and value in the hash in a sentence like this: `The #{key} is #{value}`
 #You should use the `each` method to iterate over your hash to print out that sentence
 def key_and_data(hash)
-  hash.each{|kay, value|}
+  hash.each{|kay, value| puts "The #{key} is #{value}" }
 end
